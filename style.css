@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to bottom, #0021fa,#000);
+    background: -moz-linear-gradient(to bottom, #0021fa,#000);
+    background: -o-linear-gradient(to bottom,#0021fa,#000);
+    background: -webkit-linear-gradient(to bottom,#0021fa,#000);
+    background-attachment: fixed;
+    font-size: 16px;
+}
+main{
+    text-align: center;
+}
+main #caixa{
+    background-color: #fff;
+    display: inline-block;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px #000;
+}
+button, input{
+    cursor: pointer;
+}
+#botao{
+    padding: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+input[type="number"]{
+    padding: 4px;
+}
+p{
+    padding: 5px;
+}
+#resposta{
+    color: #fff;
+}
+#resposta p{
+    font-size: 2em;
+}
